@@ -18,9 +18,11 @@ mvn archetype:generate -DgroupId=com.javapapers.sample -DartifactId=first-mavena
 
 ### plugin help
 
-```mvn -Dplugin=<groupId>:<artifactId> help:describe
+```
+mvn -Dplugin=<groupId>:<artifactId> help:describe
 
 mvn  -Dplugin=org.springframework.boot:spring-boot-maven-plugin   help:describe 
 
-mvn versions:display-plugin-updates   ```
+mvn versions:display-plugin-updates   
+```
 
