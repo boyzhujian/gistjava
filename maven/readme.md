@@ -11,3 +11,16 @@ mvn archetype:generate -DgroupId=com.javapapers.sample -DartifactId=first-mavena
  
 ###  run main class 
 ``` mvn exec:java -Dexec.mainClass="com.javapapers.sample.App"  ```
+
+
+### show all info 
+```mvn help:effective-pom```
+
+### plugin help
+
+```mvn -Dplugin=<groupId>:<artifactId> help:describe
+
+mvn  -Dplugin=org.springframework.boot:spring-boot-maven-plugin   help:describe 
+
+mvn versions:display-plugin-updates   ```
+
